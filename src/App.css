@@ -1,0 +1,67 @@
+.CombatTracker-Actors {
+    padding: 8px;
+}
+
+.CombatTracker div.header {
+  background-color: #222;
+  padding: 8px;
+  color: white;
+}
+
+.CombatTracker-ActorInput {
+    text-align: right;
+}
+
+.actor {
+    margin: 10px;
+}
+
+.actor.invisible {
+    color: #999 !important;
+}
+
+.actor.dead {
+    color: #E42B23;
+}
+
+.actor.heavily-wounded {
+    color: #FF8A15;
+}
+
+.actor.wounded {
+    color: #FEE425;
+}
+
+.actor.healthy {
+    color: #0ABF04;
+}
+
+.actor.player {
+    color: #7CCFE4 !important;
+}
+
+.actor div.generalControls, .actor div.rankControls {
+    display: inline;
+}
+
+.actor div.generalControls a {
+    padding: 4px;
+    color: white;
+}
+
+.actor span.actorName {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.actor a.orderDown {
+    color: #555;
+}
+
+.actor a.orderUp {
+    color: #666;
+}
+
+.actor span.rankControls {
+    padding-right: 8px;
+}
